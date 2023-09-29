@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DENTAKU</title>
+  <link rel="stylesheet" href="dentaku.css">
+</head>
+
+<body>
+  <section id="dentaku">
+    <form action="dentaku" method=post>
+      <main id="dentaku_main">
+        <div id="dentaku_main_exitMonitor">
+          <u id="dentaku_main_exitMonitor_resultHistory"></u>
+          <p id="dentaku_main_exitMonitor_result">
+            <input type=text id="dentaku_main_exitMonitor_result_input" value="0" required>
+          </p>
+        </div>
+      </main>
+      <menu id="dentaku_menu_ctrl">
+        <li id="dentaku_menu_ctrl_result">
+          <button id="dentaku_menu_ctrl_result_ce" value="CE" type="button">CE</button>
+          <button id="dentaku_menu_ctrl_result_c" value="C" type="button">C</button>
+          <button id="dentaku_menu_ctrl_result_backspace" value="backspace" type="button">⇐×</button>
+        </li>
+        <li id="dentaku_menu_ctrl_number">
+          <button id="dentaku_menu_ctrl_number_1" type="button">1</button>
+          <button id="dentaku_menu_ctrl_number_2" type="button">2</button>
+          <button id="dentaku_menu_ctrl_number_3" type="button">3</button>
+          <button id="dentaku_menu_ctrl_number_4" type="button">4</button>
+          <button id="dentaku_menu_ctrl_number_5" type="button">5</button>
+          <button id="dentaku_menu_ctrl_number_6" type="button">6</button>
+          <button id="dentaku_menu_ctrl_number_7" type="button">7</button>
+          <button id="dentaku_menu_ctrl_number_8" type="button">8</button>
+          <button id="dentaku_menu_ctrl_number_9" type="button">9</button>
+          <button id="dentaku_menu_ctrl_number_0" type="button">0</button>
+          <button id="dentaku_menu_ctrl_number_dot" type="button">.</button>
+        </li>
+        <li id="dentaku_menu_ctrl_calc">
+          <button id="dentaku_menu_ctrl_calc_divide" type="button">÷</button>
+          <button id="dentaku_menu_ctrl_calc_multiply" type="button">×</button>
+          <button id="dentaku_menu_ctrl_calc_minus" type="button">-</button>
+          <button id="dentaku_menu_ctrl_calc_plus" type="button">+</button>
+          <button id="dentaku_menu_ctrl_calc_equal" type="button">=</button>
+        </li>
+      </menu>
+    </form>
+  </section>
+  <script type="text/javascript" src="dentaku.js"></script>
+</body>
+
+</html>
